@@ -1,0 +1,184 @@
+nav ul {
+    list-style: none;
+    display: flex;
+    /* position: relative;
+    top: 30px; */
+}
+
+.dropdown button {
+    border-style: none;
+    background-color: white;
+    color: rgb(0, 48, 135);
+    font-weight: 600;
+
+}
+
+.navlinks li {
+    padding-left: 29px;
+    color: rgb(0, 48, 135);
+    font-weight: 600;
+    margin-top: 20px;
+}
+
+.nav-btn li {
+    position: relative;
+    right: 50px;
+    margin-left: 10px;
+}
+
+.nav-btn a {
+    text-decoration: none;
+    color: rgb(0, 48, 135);
+    font-weight: 600;
+    position: relative;
+    top: 10px;
+    right: 10px;
+}
+
+.nav-btn button {
+    width: 121px;
+    height: 48px;
+    margin-left: 10px;
+    border-radius: 20px;
+    font-weight: 600;
+}
+
+.btn2 {
+    background-color: rgb(0, 48, 135);
+    color: white;
+}
+
+
+
+.burger-div {
+    /* width: 100px;
+    height: 70px;
+    object-fit: fill; */
+    display: none;
+    position: relative;
+    /* top: 20px; */
+    left: 93%;
+}
+
+.burger {
+    color: rgb(0, 48, 135);
+    font-size: 40px;
+    /* width: 100px;
+    height: 70px; */
+    /* object-fit: cover; */
+
+}
+
+
+
+.phone{
+    position: absolute;
+    left: 27%;
+    bottom: 30.5%;
+    width: 319px;
+    height: 63px;
+    border-style: none;
+    border-radius: 10px;
+    padding-left: 20px;
+}
+.send{
+    
+    position: absolute;
+    left: 27%;
+    bottom: 20.5%;
+    width: 136px;
+    height: 56px;
+    border-radius: 30px;
+    background-color: #F9B822;
+    font-weight: 700;
+    border-style: none;
+}
+
+.hero-sec {
+    background-color: #142C8E;
+position: relative;
+}
+.px{
+    margin-left: 530px;
+}
+
+.sec-hero{
+    position: relative;
+    top: 60%;
+    /* display: block; */
+}
+
+.lorem p {
+
+    font-size: large;
+    
+}
+
+
+.last-section{
+    background-color: rgb(18, 22, 97);
+    color: white;
+    padding-left: 30%;
+    padding-top: 8%;
+}
+
+.last-section img{
+position: relative;
+right: 40px;
+}
+.btn-sign{
+    background-color: aliceblue;
+    border-style: none;
+    color: #142C8E;
+    width: 320px;
+    height: 48px;
+    font-weight: 600;
+border-radius: 20px;
+
+
+}
+
+.f-l ,.f-l1{
+    list-style: none;
+    color:  rgb(18, 22, 97);
+
+}
+.f-l li ,.f-l1 li{
+    padding-left: 20px;
+    font-weight: 600;
+}
+
+
+.sec-hero1{
+    position: relative;
+    top: 60%;
+    display: none;
+}
+
+
+
+
+@media (max-width: 776px) {
+
+    nav .navlinks,
+    .navbtn a {
+        display: none;
+
+    }
+
+    .burger-div {
+        display: block;
+        }
+.burger{
+    position: relative;
+    right: 20px;
+   
+}
+    .nav-btn {
+        /* display: none; */
+        position: relative;
+        right: 8%;
+    
+    }
+
+}
